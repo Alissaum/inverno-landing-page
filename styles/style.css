@@ -33,6 +33,7 @@ header {
 
 .titulo {
   font-weight: 500;
+  padding-bottom: 0.6rem;
 }
 
 .nav-menu {
@@ -59,7 +60,7 @@ header {
   border-radius: 1rem;
   scale: 1.1;
   transition: 0.3s;
-  cursor: pointer;
+  cursor: url("/images/icon/cursorPointer.cur"), auto;
 }
 
 .primeiraSessao {
@@ -122,6 +123,7 @@ header {
   scale: 1.1;
   transition: 0.3s;
   opacity: 0.8;
+  cursor: url("/images/icon/cursorPointer.cur"), auto;
 }
 
 .rodape {
@@ -138,11 +140,23 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  transition: 0.3s;
 }
 
 .rodape .logo-rodape {
   width: 68px;
   height: 68px;
+  transition: 0.3s;
+  margin: 0 0.4rem;
+  border-radius: 1rem;
+}
+
+.logo-rodape:hover {
+  scale: 1.1;
+  transition: 0.3s;
+  cursor: url("/images/icon/cursorPointer.cur"), auto;
+  background-color: #e4eef1;
+  border-radius: 1rem;
 }
 
 .nav-rodape ul {
@@ -152,11 +166,13 @@ header {
   color: #e4eef1;
 }
 
+.pinguim-box,
 .pinguim {
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .pinguim:hover {
-  scale: 1.1;
   transition: 0.3s;
+  scale: 1.2;
+  cursor: url("/images/icon/cursorPointer.cur"), auto;
 }
